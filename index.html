@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>C35 BALL SYNC</title>
+  <!-- javascript libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+  <script src="p5.play.js"></script>
+
+  <!-- DB FIREBASE SUPPORT LIBRARIES -->
+  <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+  <!-- firebase config -->
+  <script>
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyBhOQZv5KQfAZ2SDc6mW1yvw3pzkiSmxuQ",
+      authDomain: "c35-ball-sync.firebaseapp.com",
+      databaseURL: "https://c35-ball-sync-default-rtdb.europe-west1.firebasedatabase.app",
+      projectId: "c35-ball-sync",
+      storageBucket: "c35-ball-sync.appspot.com",
+      messagingSenderId: "731777962439",
+      appId: "1:731777962439:web:0a9ea284f864aca71e89e2"
+    };
+    
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+
+<body>
+  <!-- JS Executable file -->
+  <script src="sketch.js"></script>
+</body>
+
+</html>
